@@ -31,7 +31,7 @@ namespace Mine.Views
         /// <summary>
         /// Update the Display Value when the Stepper Changes
         /// </summary>
-        void Value_onStepperValueChanged(object sender, ValueChangedEventArgs e)
+        void Value_OnStepperValueChanged(object sender, ValueChangedEventArgs e)
         {
             ValueValue.Text = String.Format("{0}", e.NewValue);
         }
