@@ -24,7 +24,7 @@
             <Stepper
                 Value="{Binding Data.Value, Mode=TwoWay}"
                 Minimum="0"
-                Maximum="0"
+                Maximum="10"
                 Increment="1"/>
 
         </StackLayout>
