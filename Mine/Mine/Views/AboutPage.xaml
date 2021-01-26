@@ -28,7 +28,8 @@
         <StackLayout BackgroundColor="{StaticResource Accent}" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
                 <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
-                    <Image Source="xamarin_logo.png" VerticalOptions="Center" HeightRequest="64" />
+                    <Image Source="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Seattle_Redhawks_logo.svg/914px-Seattle_Redhawks_logo.svg.png"
+                           WidthRequest="100" HeightRequest="100" />
                 </ContentView>
             </StackLayout>
         </StackLayout>
@@ -36,7 +37,7 @@
             <StackLayout Orientation="Vertical" Padding="16,40,16,40" Spacing="10">
                 <Label Text="CPSC 5250 WQ21"></Label>
                 <Label Text="Ajer Lodhi"></Label>
-                <Label Text="1/20/2021 - 12:06am"></Label>
+                <Label Text="1/25/2021 - 7:56pm"></Label>
             </StackLayout>
         </ScrollView>
     </Grid>
