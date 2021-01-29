@@ -141,4 +141,19 @@
       <Name>Mine</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="icon_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="icon_cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="icon_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="icon_save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="icon_update.png" />
+  </ItemGroup>
 </Project>
