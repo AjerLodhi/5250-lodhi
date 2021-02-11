@@ -103,11 +103,12 @@ namespace UnitTests.Helpers
             // Arrange
             DiceHelper.ForceRollsToNotRandom = true;
             DiceHelper.ForcedRandomValue = 1;
+           
             // Act
-
             var result = DiceHelper.RollDice(1, 1);
 
             // Reset
+            DiceHelper.ForceRollsToNotRandom = false;
 
             // Assert
             Assert.AreEqual(1, result);
