@@ -127,7 +127,6 @@ namespace UnitTests.Helpers
             // Reset
             DiceHelper.ForceRollsToNotRandom = false;
 
-
             // Assert
             Assert.AreEqual(5, result);
         }
@@ -138,12 +137,13 @@ namespace UnitTests.Helpers
             // Arrange
             DiceHelper.ForceRollsToNotRandom = true;
             DiceHelper.ForcedRandomValue = 5;
+            
             // Act
-
             var result = DiceHelper.RollDice(3, 10);
 
             // Reset
-
+            DiceHelper.ForceRollsToNotRandom = false;
+            
             // Assert
             Assert.AreEqual(15, result);
         }
